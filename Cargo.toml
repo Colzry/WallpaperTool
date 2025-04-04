@@ -1,0 +1,11 @@
+[package]
+name = "WallpaperTool"
+version = "1.0.0"
+edition = "2021"
+authors = ["Colzry <colzry@outlook.com>"]
+
+[dependencies]
+winapi = { version = "0.3", features = ["winuser", "shellapi", "shlobj", "combaseapi", "knownfolders"] }
+clap = { version = "4.0", features = ["derive"] }
+rand = "0.8"
+widestring = "0.5"
